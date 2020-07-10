@@ -1,3 +1,11 @@
 # Summary
 
-- [Chapter 1](./chapter_1.md)
+[Zlosynth](./intro.md)
+
+[Kanban](./kanban.md)
+
+# Rust
+
+# Audio Signal Processing
+
+# Microcontrollers

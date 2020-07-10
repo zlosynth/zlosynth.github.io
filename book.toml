@@ -1,5 +1,10 @@
 [book]
-authors = ["Petr Horacek"]
+title = "zlosynth"
+description = "TODO"
+author = "Petr Horacek"
 language = "en"
 multilingual = false
 src = "src"
+
+[output.html]
+git-repository-url = "https://github.com/zlosynth/"
