@@ -33,10 +33,6 @@ sufficiently groomed.
 
 ## Backlog
 
-> **Learn embedded Rust**
->
-> *Topic: Rust, Microcontrollers*
-
 > **Learn music theory and basics of DSP from [Musimathics](http://www.musimathics.com/)**
 >
 > *Topic: Audio Signal Processing*
@@ -68,6 +64,10 @@ sufficiently groomed.
 > **Buy STM32 Discovery board**
 >
 > *Topic: Microcontrollers*
+
+> **Learn embedded Rust**
+>
+> *Topic: Rust, Microcontrollers*
 
 > **Write an article about STM32 Discovery with Rust on Linux**
 >
