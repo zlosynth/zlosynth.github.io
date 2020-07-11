@@ -16,3 +16,7 @@ _Petr, July 2020_
 This page serves as a journal to keep track of my plans, progress and findings
 regarding aforementioned topics. I hope that articles posted here will be useful
 source of information for whoever finds them, or for my future self.
+
+<p align="center">
+  <img src="sine.png" width="700" />
+</p>
