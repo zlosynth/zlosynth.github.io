@@ -33,6 +33,15 @@ sufficiently groomed.
 
 ## Backlog
 
+> **Implement #![no_std] graph library**
+>
+> *Topic: Rust*
+>
+> In order to exercise learned Rust and have some fun, I want to write a library
+> for graph representation and operations with no_std (aka, without heap). This
+> should be later useful for calculation of sound moudles patching on a
+> microprocessor.
+
 > **Learn music theory and basics of DSP from [Musimathics](http://www.musimathics.com/)**
 >
 > *Topic: Audio Signal Processing*
