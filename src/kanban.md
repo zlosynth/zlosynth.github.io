@@ -29,9 +29,33 @@ sufficiently groomed.
 > Programming
 > Language](https://www.amazon.de/Rust-Programming-Language-Covers-2018/dp/1718500440/ref=sr_1_1?dchild=1&keywords=rust&qid=1594415230&sr=8-1).
 >
-> Link to finished article: TBD
+> As part of this effort, I will post an introduction article about Rust.
+
+> **Implement "Box" library without heap**
+>
+> * *Topic: Rust*
+> * *Started: 2020-07-22*
+>
+> Using stack only has benefits of predictable memory usage, possibility to
+> dedicate certain amount of memory to each section of your application and it
+> also sounds fun. When it comes to microcontrollers, dynamic memory allocation
+> needs to be brought by a package specific to given processor and that makes
+> the code less portable. So I'm refusing to work with heap in this project.
+> However, sometimes it would be really handy to have dynamic address allocation
+> available. I know I will need a graph library and I know I will never have
+> enough memory to spare for adjacency matrix. For that reason, I will implement
+> something resembling the Box object, but on stack.
+>
+> As part of this effort, I will publish following:
+> * An article to the Rust section about #![no_std].
+> * An article in the rust section about this library.
+> * This new library in version 1.0.
 
 ## Backlog
+
+> **Implement #![no_std] linked-list library**
+>
+> *Topic: Rust*
 
 > **Implement #![no_std] graph library**
 >
