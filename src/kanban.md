@@ -94,6 +94,14 @@ sufficiently groomed.
 >
 > *Topic: Audio Signal Processing*
 
+> **Implement Max-like UI for the sound library**
+>
+> *Topic: Rust*
+>
+> Before I dive into embedded and start designing a box, it would make sense to
+> first try the concept virtually. Let's implement simple Max-line UI to control
+> and patch noise sources.
+
 > **Buy STM32 Discovery board**
 >
 > *Topic: Microcontrollers*
