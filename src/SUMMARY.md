@@ -4,6 +4,8 @@
 
 [Kanban](./kanban.md)
 
+# Projects
+
 # Rust
 
 # Audio Signal Processing
