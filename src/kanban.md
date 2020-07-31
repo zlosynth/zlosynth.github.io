@@ -99,8 +99,10 @@ sufficiently groomed.
 > *Topic: Rust*
 >
 > Before I dive into embedded and start designing a box, it would make sense to
-> first try the concept virtually. Let's implement simple Max-line UI to control
-> and patch noise sources.
+> first try the concept virtually. Let's implement simple Max-like (or Pd-like)
+> UI to control and patch noise sources.
+> [Condor](https://github.com/PistonDevelopers/conrod) seems to be a good
+> library to draw such a free-form UI.
 
 > **Buy STM32 Discovery board**
 >
