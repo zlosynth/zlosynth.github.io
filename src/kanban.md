@@ -25,11 +25,9 @@ sufficiently groomed.
 >
 > I was playing with Rust couple of years back, but since then, the language
 > changed quite a bit and I forgot most of it anyway. In order to re-learn Rust,
-> I am using [The Book](https://doc.rust-lang.org/book/) and also [The Rust
-> Programming
-> Language](https://www.amazon.de/Rust-Programming-Language-Covers-2018/dp/1718500440/ref=sr_1_1?dchild=1&keywords=rust&qid=1594415230&sr=8-1).
+> I am using [The Book](https://doc.rust-lang.org/book/).
 >
-> As part of this effort, I will post an introduction article about Rust.
+> As a part of this effort, I will post an introduction article about Rust.
 
 > **Implement "Box" library without heap**
 >
@@ -47,15 +45,11 @@ sufficiently groomed.
 > something resembling the Box object, but on stack.
 >
 > As part of this effort, I will publish following:
-> * An article to the Rust section about #![no_std].
-> * An article in the rust section about this library.
-> * This new library in version 1.0.
+> * An article in the Rust section about this library.
+> * [Page](project-heapnotize.html) dedicated to this project.
+> * This new library in [version 1.0](https://github.com/zlosynth/heapnotize).
 
 ## Backlog
-
-> **Implement #![no_std] linked-list library**
->
-> *Topic: Rust*
 
 > **Implement #![no_std] graph library**
 >

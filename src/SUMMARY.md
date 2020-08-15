@@ -6,6 +6,8 @@
 
 # Projects
 
+* [Heapnotize](./project-heapnotize.md)
+
 # Rust
 
 # Audio Signal Processing
