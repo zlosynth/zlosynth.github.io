@@ -48,6 +48,7 @@ use List::{Cons, Nil};
 
 fn main() {
     let rack = Rack64::new();
+    # #[allow(unused_variables)]
     let list = Cons(1, rack.must_add(Cons(2, rack.must_add(Cons(3, rack.must_add(Nil))))));
 }
 ```

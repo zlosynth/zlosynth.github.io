@@ -6,7 +6,8 @@
 
 # Projects
 
-* [Heapnotize](./project-heapnotize.md)
+* [Overview](./projects-overview.md)
+* [Heapnotize](./projects-heapnotize.md)
 
 # Rust
 
