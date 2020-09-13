@@ -32,7 +32,8 @@ sufficiently groomed.
 
 > **Implement #![no_std] graph library**
 >
-> *Topic: Rust*
+> * *Topic: Rust*
+> * *Started: 2020-09-13*
 >
 > In order to exercise learned Rust and have some fun, I want to write a library
 > for graph representation and operations with no_std (aka, without heap). This
@@ -41,7 +42,7 @@ sufficiently groomed.
 >
 > Once this is done, I should:
 > * Publish a dedicated page for this project on this page.
-> * Release the library in version 1.
+> * Release the library in version 1.0.
 
 ## Backlog
 
