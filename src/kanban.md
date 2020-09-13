@@ -30,8 +30,6 @@ sufficiently groomed.
 > As a part of this effort, I will post an [introduction article about
 > Rust](rust-learning-rust.html).
 
-## Backlog
-
 > **Implement #![no_std] graph library**
 >
 > *Topic: Rust*
@@ -40,6 +38,12 @@ sufficiently groomed.
 > for graph representation and operations with no_std (aka, without heap). This
 > should be later useful for calculation of sound moudles patching on a
 > microprocessor.
+>
+> Once this is done, I should:
+> * Publish a dedicated page for this project on this page.
+> * Release the library in version 1.
+
+## Backlog
 
 > **Learn music theory and basics of DSP from [Musimathics](http://www.musimathics.com/)**
 >
