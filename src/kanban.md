@@ -27,27 +27,8 @@ sufficiently groomed.
 > changed quite a bit and I forgot most of it anyway. In order to re-learn Rust,
 > I am using [The Book](https://doc.rust-lang.org/book/).
 >
-> As a part of this effort, I will post an introduction article about Rust.
-
-> **Implement "Box" library without heap**
->
-> * *Topic: Rust*
-> * *Started: 2020-07-22*
->
-> Using stack only has benefits of predictable memory usage, possibility to
-> dedicate certain amount of memory to each section of your application and it
-> also sounds fun. When it comes to microcontrollers, dynamic memory allocation
-> needs to be brought by a package specific to given processor and that makes
-> the code less portable. So I'm refusing to work with heap in this project.
-> However, sometimes it would be really handy to have dynamic address allocation
-> available. I know I will need a graph library and I know I will never have
-> enough memory to spare for adjacency matrix. For that reason, I will implement
-> something resembling the Box object, but on stack.
->
-> As part of this effort, I will publish following:
-> * An article in the Rust section about this library.
-> * [Page](project-heapnotize.html) dedicated to this project.
-> * This new library in [version 1.0](https://github.com/zlosynth/heapnotize).
+> As a part of this effort, I will post an [introduction article about
+> Rust](rust-learning-rust.html).
 
 ## Backlog
 
@@ -157,3 +138,23 @@ sufficiently groomed.
 > *Topic: Microcontrollers*
 
 ## Done
+
+> **Implement "Box" library without heap**
+>
+> * *Topic: Rust*
+> * *Started: 2020-07-22*
+> * *Finished: 2020-09-01*
+>
+> Using stack only has benefits of predictable memory usage, possibility to
+> dedicate certain amount of memory to each section of your application and it
+> also sounds fun. When it comes to microcontrollers, dynamic memory allocation
+> needs to be brought by a package specific to given processor and that makes
+> the code less portable. So I'm refusing to work with heap in this project.
+> However, sometimes it would be really handy to have dynamic address allocation
+> available. I know I will need a graph library and I know I will never have
+> enough memory to spare for adjacency matrix. For that reason, I will implement
+> something resembling the Box object, but on stack.
+>
+> As part of this effort, I will publish following:
+> * [Page](project-heapnotize.html) dedicated to this project.
+> * This new library in [version 1.0](https://github.com/zlosynth/heapnotize).
