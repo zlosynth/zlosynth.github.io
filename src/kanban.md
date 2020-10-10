@@ -27,6 +27,10 @@ sufficiently groomed.
 > changed quite a bit and I forgot most of it anyway. In order to re-learn Rust,
 > I am using [The Book](https://doc.rust-lang.org/book/).
 >
+> I'm also using [Learn Rust With Entirely Too Many Linked
+> Lists](https://rust-unofficial.github.io/too-many-lists) and it is priceless
+> for better understanding of some weird and hidden aspects of the language.
+>
 > As a part of this effort, I will post an [introduction article about
 > Rust](rust-learning-rust.html).
 
