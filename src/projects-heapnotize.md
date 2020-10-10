@@ -2,12 +2,10 @@
 
 A Rust library providing memory allocation on the stack.
 
-Why bother? I plan to write the embedded application for Zlosynth without the
-standard library (`#[no_std]`), which is quite typical for microcontroller
-programming where allocation on the heap is not available. However, in order to
-implement complex patching between sounds modules, complex data structures, e.g.
-a graph will be needed. This library should help with the implementation of such
-data structures.
+I'm not sure whether this one will become used and if it is useful at all. Made
+this as part of the Rust learning process, thinking I will build Zlosynth
+without `alloc`. That seems like a crazy idea though. Anyway, for what it's
+worth, here it is!
 
 Documentation:
 
