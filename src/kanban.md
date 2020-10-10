@@ -34,10 +34,25 @@ sufficiently groomed.
 > As a part of this effort, I will post an [introduction article about
 > Rust](rust-learning-rust.html).
 
+> **Implement Max-like UI for the sound library**
+>
+> * *Topic: Rust*
+> * *Started: 2020-10-10*
+>
+> Before I dive into embedded and start designing a box, it would make sense to
+> first try the concept virtually. Let's implement simple Max-like (or Pd-like)
+> UI to control and patch noise sources.
+> [Condor](https://github.com/PistonDevelopers/conrod) seems to be a good
+> library to draw such a free-form UI.
+>
+> Working on this project bottom up got me into a lot of dead ends. Maybe
+> starting from the top would provide a better guideline on what is needed.
+
+## Backlog
+
 > **Implement #![no_std] graph library**
 >
 > * *Topic: Rust*
-> * *Started: 2020-09-13*
 >
 > In order to exercise learned Rust and have some fun, I want to write a library
 > for graph representation and operations with no_std (aka, without heap). This
@@ -47,8 +62,6 @@ sufficiently groomed.
 > Once this is done, I should:
 > * Publish a dedicated page for this project on this page.
 > * Release the library in version 1.0.
-
-## Backlog
 
 > **Learn music theory and basics of DSP from [Musimathics](http://www.musimathics.com/)**
 >
@@ -77,16 +90,6 @@ sufficiently groomed.
 > **Implement patching module**
 >
 > *Topic: Audio Signal Processing*
-
-> **Implement Max-like UI for the sound library**
->
-> *Topic: Rust*
->
-> Before I dive into embedded and start designing a box, it would make sense to
-> first try the concept virtually. Let's implement simple Max-like (or Pd-like)
-> UI to control and patch noise sources.
-> [Condor](https://github.com/PistonDevelopers/conrod) seems to be a good
-> library to draw such a free-form UI.
 
 > **Buy STM32 Discovery board**
 >
