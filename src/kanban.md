@@ -14,26 +14,6 @@ sufficiently groomed.
 
 ## In Progress
 
-> **Learn general Rust**
->
-> * *Topic: Rust*
-> * *Started: 2020-07-05*
->
-> I chose to use Rust for embedded programming. It does not have that many
-> resources as C, but hey, it is fun. As the result of this effort, I should
-> list the resources I've used in the Rust section.
->
-> I was playing with Rust couple of years back, but since then, the language
-> changed quite a bit and I forgot most of it anyway. In order to re-learn Rust,
-> I am using [The Book](https://doc.rust-lang.org/book/).
->
-> I'm also using [Learn Rust With Entirely Too Many Linked
-> Lists](https://rust-unofficial.github.io/too-many-lists) and it is priceless
-> for better understanding of some weird and hidden aspects of the language.
->
-> As a part of this effort, I will post an [introduction article about
-> Rust](rust-learning-rust.html).
-
 > **Implement Max-like UI for the sound library**
 >
 > * *Topic: Rust*
@@ -150,6 +130,24 @@ sufficiently groomed.
 > *Topic: Microcontrollers*
 
 ## Done
+
+> **Learn general Rust**
+>
+> * *Topic: Rust*
+> * *Started: 2020-07-05*
+> * *Finished: 2020-11-27*
+>
+> I chose to use Rust for embedded programming. It does not have that many
+> resources as C, but hey, it is fun. As the result of this effort, I should
+> list the resources I've used in the Rust section.
+>
+> I was playing with Rust couple of years back, but since then, the language
+> changed quite a bit and I forgot most of it anyway. In order to re-learn Rust,
+> I am using [The Book](https://doc.rust-lang.org/book/).
+>
+> I'm also using [Learn Rust With Entirely Too Many Linked
+> Lists](https://rust-unofficial.github.io/too-many-lists) and it is priceless
+> for better understanding of some weird and hidden aspects of the language.
 
 > **Implement "Box" library without heap**
 >
