@@ -8,6 +8,7 @@ build = "build.rs"
 
 [dependencies]
 heapnotize = "1.0"
+gazpatcho = "1.0"
 skeptic = "0.13"
 
 [build-dependencies]

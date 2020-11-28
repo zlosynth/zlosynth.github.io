@@ -7,6 +7,7 @@
 # Projects
 
 * [Overview](./projects-overview.md)
+* [Gazpatcho](./projects-gazpatcho.md)
 * [Heapnotize](./projects-heapnotize.md)
 
 # Rust

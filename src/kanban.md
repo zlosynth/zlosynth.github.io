@@ -14,25 +14,12 @@ sufficiently groomed.
 
 ## In Progress
 
-> **Implement Max-like UI for the sound library**
->
-> * *Topic: Rust*
-> * *Started: 2020-10-10*
->
-> Before I dive into embedded and start designing a box, it would make sense to
-> first try the concept virtually. Let's implement simple Max-like (or Pd-like)
-> UI to control and patch noise sources.
-> [Condor](https://github.com/PistonDevelopers/conrod) seems to be a good
-> library to draw such a free-form UI.
->
-> Working on this project bottom up got me into a lot of dead ends. Maybe
-> starting from the top would provide a better guideline on what is needed.
-
 ## Backlog
 
 > **Implement #![no_std] graph library**
 >
 > * *Topic: Rust*
+> * *Started: 2020-11-27*
 >
 > In order to exercise learned Rust and have some fun, I want to write a library
 > for graph representation and operations with no_std (aka, without heap). This
@@ -130,6 +117,23 @@ sufficiently groomed.
 > *Topic: Microcontrollers*
 
 ## Done
+
+> **Implement Max-like UI for the sound library**
+>
+> * *Topic: Rust*
+> * *Started: 2020-10-10*
+> * *Finished: 2020-11-27*
+>
+> Before I dive into embedded and start designing a box, it would make sense to
+> first try the concept virtually. Let's implement simple Max-like (or Pd-like)
+> UI to control and patch noise sources.
+> [Condor](https://github.com/PistonDevelopers/conrod) seems to be a good
+> library to draw such a free-form UI.
+>
+> Working on this project bottom up got me into a lot of dead ends. Maybe
+> starting from the top would provide a better guideline on what is needed.
+>
+> Project page: [gazpatcho](projects-gazpatcho.html).
 
 > **Learn general Rust**
 >
