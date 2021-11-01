@@ -20,12 +20,6 @@ header .column {
   width: 50%;
 }
 
-/* .row:after { */
-/*   content: ""; */
-/*   display: table; */
-/*   clear: both; */
-/* } */
-
 header h1 {
   font-size: 1.75em;
   padding-top: 12px;
