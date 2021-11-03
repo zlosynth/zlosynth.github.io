@@ -7,6 +7,10 @@ b {
   font-weight: 600;
 }
 
+i {
+  font-style: italic;
+}
+
 header {
   background: #222;
   height: 120px;
@@ -200,6 +204,17 @@ section#achordion-description dt:before {
   content: "";
   display: block;
   margin-bottom: 7px;
+}
+
+section#achordion-description img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+section#achordion-description .middle {
+  display: flex;
+  align-items: center;
 }
 
 @media screen and (max-width: 600px) {

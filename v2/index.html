@@ -109,12 +109,12 @@
       </div>
 
       <div class="row">
-        <div class="left">
-          <img src="layout.png" style="width: 100%; border-radius: 10px; margin-top: 30px;">
+        <div class="left middle">
+          <img src="layout.png">
         </div>
 
         <div class="right">
-          <h2>layout</h2>
+          <h2>controls, inputs and outputs</h2>
           <p>
             <b>WAVETABLE</b> (<b>A</b>) knob selects the wavetable. When the
             button (<b>Y</b>) is held down, this knob scrolls through wavetable
@@ -144,9 +144,23 @@
             alternative parameters of each of the knobs.
           </p>
           <p>
-            The jacks <b>1</b> through <b>5</b> on the bottom are used as
-            <b>CV inputs</b>. Jacks <b>6</b> and <b>7</b> are <b>audio
-            outputs</b>.
+            CV inputs <b>TONE</b> (<b>1</b>) and <b>TONE'</b> (<b>2</b>) used to
+            control the root note that is playing on the main and side line,
+            respectively. When <b>TONE</b> is connected, the <b>TONE</b> knob
+            controlls octave offset. These inputs follow 1V/oct standard,
+            between 0 and +10 V.
+          </p>
+          <p>
+            CV inputs <b>TABLE</b> (<b>3</b>), <b>DETUNE</b> (<b>4</b>)
+            and <b>CHORD</b> (<b>5</b>) are used to control the same attributes
+            as the knobs described above. The value selected by the knob is
+            added to the value set through CV. These inputs span between -5 and
+            +5 V.
+          </p>
+          <p>
+            Audio outputs <b>OUT</b> (<b>6</b>) and <b>OUT'</b> (<b>7</b>) play
+            the main and the side line respectively. When only one is connected,
+            the outputs are mixed together.
           </p>
         </div>
       </div>
