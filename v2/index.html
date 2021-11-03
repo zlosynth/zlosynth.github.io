@@ -109,8 +109,16 @@
       </div>
 
       <div class="row">
-        <div class="left middle">
+        <div class="left">
           <img src="layout.png">
+
+          <h2>installation</h2>
+          <p>
+            Achordion is 10 HP wide Eurorack module. It is powered by -12V/+12V
+            2x5 connector. The red stripe (-12V) should be connected on the side
+            of the board marked with the white line. The boxed power connector
+            should make it easier to connect with the right polarity.
+          </p>
         </div>
 
         <div class="right">
@@ -251,8 +259,19 @@
 
           <h2>calibration</h2>
           <p>
-            TODO
+            While inputs <b>TONE</b> and <b>TONE'</b> should match the 1V/oct
+            standard, they may be little off, either due to used components or
+            the CV source not matching the standard preciselly. It is possible
+            to calibrate each of these inputs individually for their CV source.
+            To do so, follow this procedure:
           </p>
+          <ol class="arabic">
+            <li>While pressing the <b>button</b>, connect jack to the input.</li>
+            <li>The left column of <b>LEDs</b> should lit up.</li>
+            <li>Play the note <i>C</i> on the CV source and press the <b>button</b>.</li>
+            <li>Now the right column of <b>LEDs</b> should lit up.</li>
+            <li>Play the note <i>C</i> one octave higher and press the <b>button</b> again.</li>
+          </ol>
 
           <h2>reset</h2>
           <p>

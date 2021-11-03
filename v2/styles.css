@@ -173,6 +173,10 @@ section#achordion-description ol {
   margin-bottom: 30px;
 }
 
+section#achordion-description ol.arabic {
+  list-style-type: arabic;
+}
+
 section#achordion-description ol li {
   margin-bottom: 5px;
   margin-left: 25px;
@@ -210,11 +214,6 @@ section#achordion-description img {
   width: 100%;
   border-radius: 10px;
   margin-top: 30px;
-}
-
-section#achordion-description .middle {
-  display: flex;
-  align-items: center;
 }
 
 @media screen and (max-width: 600px) {
