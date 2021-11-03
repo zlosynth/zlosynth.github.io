@@ -91,12 +91,27 @@
       <div>
         <h2>features</h2>
         <p>
-          TODO
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi leo
+          mi, nonummy eget tristique non, rhoncus non leo. Donec vitae arcu.
+          Aliquam erat volutpat. Donec iaculis gravida nulla. Maecenas libero.
+          Integer in sapien. Morbi leo mi, nonummy eget tristique non, rhoncus
+          non leo. Duis condimentum augue id magna semper rutrum. Duis bibendum,
+          lectus ut viverra rhoncus, dolor nunc faucibus libero, eget facilisis
+          enim ipsum id lacus. Maecenas fermentum, sem in pharetra pellentesque,
+          velit turpis volutpat ante, in pharetra metus odio a lectus. In
+          dapibus augue non sapien. Fusce wisi. In enim a arcu imperdiet
+          malesuada. Cum sociis natoque penatibus et magnis dis parturient
+          montes, nascetur ridiculus mus. Fusce nibh. Curabitur ligula sapien,
+          pulvinar a vestibulum quis, facilisis vel sapien. Quisque tincidunt
+          scelerisque libero. Nullam at arcu a est sollicitudin euismod. Integer
+          in sapien.
         </p>
       </div>
 
       <div class="row">
         <div class="left">
+          <img src="layout.png" style="width: 100%; border-radius: 10px; margin-top: 30px;">
+
           <h2>wavetables</h2>
           <p>
             TODO
@@ -113,7 +128,40 @@
 
           <h2>detune</h2>
           <p>
-            TODO
+            This parameter controls number of secondary voices per each played
+            note and their detune. The knob/CV input scrolls through three of
+            these detune modes:
+          </p>
+
+          <ol>
+            <li>
+              Disabled, only primary tones of the selected chord are playing.
+            </li>
+            <li>
+              Single sub-octave, the first degree of the chord is duplicated one
+              octave lower. This is a classic sub-octave.
+            </li>
+            <li>
+              Each tone in the chord is duplicated once with a unisono. This
+              produces slight movement or vibrato effect, depending on the
+              amount of the detune.
+            </li>
+            <li>
+              Two sub-octaves per each degree. This can produce very rich wall
+              of sound and gets crazy with lot of detune.
+            </li>
+          </ol>
+
+          <p>
+            While moving through each of the modes, secondary voices are being
+            gradually put them of tune. In lower detunes, the difference in
+            frequency is very small and produces "beats", when it is pushed
+            higher it turns into a wild cacophony.
+          </p>
+
+          <p>
+            The Detune CV works on range 0 to 10 V. When an input is connected,
+            the knob controls its offset.
           </p>
 
           <h2>voices</h2>
@@ -124,7 +172,7 @@
         <div class="right">
           <h2>chords</h2>
           <p>
-            TODO
+            TODO, explain how they are visualized, explains modes, list all of them
           </p>
 
           <h2>quantization</h2>
@@ -145,6 +193,16 @@
           <p>
             TODO
           </p>
+
+          <h2>calibration</h2>
+          <p>
+            TODO
+          </p>
+
+          <h2>reset</h2>
+          <p>
+            TODO
+          </p>
         </div>
       </div>
 
@@ -155,9 +213,20 @@
         </div>
 
         <h2>specs</h2>
-        <p>
-          TODO
-        </p>
+        <dl>
+          <dt>Width:</dt>
+          <dd>10 HP</dd>
+          <dt>Depth:</dt>
+          <dd>XX mm</dd>
+          <dt>Power:</dt>
+          <dd>+12 V (XX mA), -12 V (YY mA)</dd>
+          <dt>Input impedance:</dt>
+          <dd>100 k</dd>
+          <dt>Audio outputs:</dt>
+          <dd>16-bit, 44800 Hz</dd>
+          <dt>CV inputs:</dt>
+          <dd>X-bit, YY Hz</dd>
+        </dl>
       </div>
     </div>
   </section>

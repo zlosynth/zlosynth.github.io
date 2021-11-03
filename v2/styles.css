@@ -184,6 +184,20 @@ section#achordion-description .right {
   padding-left: 30px;
 }
 
+section#achordion-description dt, section#achordion-description dd {
+  display: inline;
+}
+
+section#achordion-description dt {
+  font-weight: 600;
+}
+
+section#achordion-description dt:before {
+  content: "";
+  display: block;
+  margin-bottom: 7px;
+}
+
 @media screen and (max-width: 600px) {
   section#achordion-description .row {
     display: block;
