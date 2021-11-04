@@ -177,17 +177,36 @@
         <div class="left">
           <h2>wavetables</h2>
           <p>
-            TODO
+            There are 37 wavetables to select from, divided into 4 banks to select from:
           </p>
           <ol type="I">
-            <li>Ionian – description of its character</li>
-            <li>Dorian – description of its character</li>
-            <li>Phrygian – description of its character</li>
-            <li>Lydian – description of its character</li>
-            <li>Mixolydian – description of its character</li>
-            <li>Aeolian – description of its character</li>
-            <li>Locrian – description of its character</li>
+            <li>
+              <b>Perfect</b> – classic waveforms: triangle, sine, square and
+              saw. All of these are containing pure harmonics.
+            </li>
+            <li>
+              <b>Harsh</b> – full and distorted sounds. These can get very full
+              when played in rich chords.
+            </li>
+            <li>
+              <b>Soft</b> – cleaner sounds and bells.
+            </li>
+            <li>
+              <b>Sines</b> – the bottom half of this bank is a sequence of sin
+              function multiplications providing variety of different sounds
+              from clean to crazy noises. The upper half contains sums of sin
+              functions, sliding through this part provides a low-pass filter
+              effect.
+            </li>
           </ol>
+          <p>
+            The transitions between wavetables within a single bank are gradual
+            and very smooth, suitable for live control through ADSR.
+          </p>
+          <p>
+            The bank can be selected by pressing the <b>button</b> (<b>Y</b>)
+            while turning the <b>WAVETABLE</b> (<b>A</b>) knob.
+          </p>
 
           <h2>detune</h2>
           <p>
@@ -223,7 +242,7 @@
           </p>
 
           <p>
-            The Detune CV works on range 0 to 10 V. When an input is connected,
+            The Detune CV works on range -5V to +5V. When an input is connected,
             the knob controls its offset.
           </p>
 
