@@ -11,6 +11,16 @@ i {
   font-style: italic;
 }
 
+a {
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 header {
   background: #222;
   height: 120px;
@@ -232,4 +242,5 @@ footer {
   margin-top: 100px;
   text-align: center;
   background-color: white;
+  padding: 0 20px;
 }
