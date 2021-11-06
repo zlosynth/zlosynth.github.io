@@ -138,6 +138,12 @@
         <div class="right">
           <h2>controls, inputs and outputs</h2>
           <p>
+            On the left side, there is a column of <b>LED diodes</b>&nbsp;(<b>X</b>) that
+            are visualizing the currently selected parameter. Below the LEDs,
+            there is a <b>button</b>&nbsp;(<b>Y</b>) that allows access to
+            alternative parameters of each of the knobs.
+          </p>
+          <p>
             <b>WAVETABLE</b> (<b>A</b>) knob selects the wavetable. When the
             button (<b>Y</b>) is held down, this knob scrolls through wavetable
             banks.
@@ -156,14 +162,6 @@
             <b>CHORD</b> (<b>D</b>) knob selects the chord or interval that
             should be playing. When the button (<b>Y</b>) is held down, this
             knob selects the mode in which chords are built.
-          </p>
-          <p>
-            On the left side, there is a column of <b>LED diodes</b>&nbsp;(<b>X</b>) that
-            are visualizing the currently selected parameter.
-          </p>
-          <p>
-            Below the LEDs, there is a <b>button</b>&nbsp;(<b>Y</b>) that allows access to
-            alternative parameters of each of the knobs.
           </p>
           <p>
             CV inputs <b>TONE</b> (<b>1</b>) and <b>TONE'</b> (<b>2</b>) used to
@@ -255,13 +253,13 @@
             moving and warm, when it is pushed higher it turns into a wild
             cacophony.
           </p>
-        </div>
-        <div class="right">
+
           <h2>chords</h2>
           <p>
             TODO, explain how they are visualized, explains modes, list all of them
           </p>
-
+        </div>
+        <div class="right">
           <h2>quantization</h2>
           <p>
             TODO
@@ -276,9 +274,41 @@
             <li>Locrian – description of its character</li>
           </ol>
 
-          <h2>two lines</h2>
+          <h2>two voices</h2>
           <p>
-            TODO
+            The module has two voices, primary and secondary. The pitch of these
+            voices can be controlled independencly while all the other attributes
+            are shared.
+          </p>
+          <p>
+            The primary voice is controlled through the <b>TONE</b> knob and
+            CV input. The primary voice can play a chord, controlled through
+            the <b>CHORD</b> knob and CV input.
+          </p>
+          <p>
+            The secondary voice is controlled through the <b>TONE'</b> CV input
+            and is playing only when a jack is connected. Unlike the primary
+            voice, the secondary is not playing chords.
+          </p>
+
+          <h2>split output</h2>
+          <p>
+            There are two audio outputs in the module: <b>OUT</b>
+            and <b>OUT'</b>. When only one of these outputs is connected, it
+            gets mixed with the unconnected one. When both outputs are
+            connected, each plays a different line. This allows to run each line
+            through a different effect chain.
+          </p>
+          <p>
+            The content of these lines depends on the playing voices. If the
+            secondary voice is playing, <b>OUT</b> plays the primary voice,
+            controlled by <b>TONE</b> and <b>OUT'</b> is playing the secondary
+            voice, controlled by <b>TONE'</b>.
+          </p>
+          <p>
+            However, when the secondary voice is not connected, <b>OUT</b>
+            contains the root note of the primary voice, while <b>OUT'</b>
+            contains the rest of the chord played by the primary voice.
           </p>
 
           <h2>calibration</h2>
@@ -336,13 +366,14 @@
         <div class="left">
           <h2>About</h2>
           <p>
-            My name is Petr Horáček. Musical background. Computer systems. During
-            pandemic in 2019, without knowing anything about embedded systems, being
-            mediocre at music theory and terrible at maths, I have finally picked up
-            soldering iron again, got some books, prepared some prototypes and then
-            finally commited to build one thing and don't stop until it's done. I
-            want to make digital modules that will ... Zlosynth modules, including their
-            PCBs and panels are made in Czechia and Slovakia.
+            My name is Petr. Musical background. Computer systems. During
+            pandemic in 2019, without knowing anything about embedded systems,
+            being mediocre at music theory and terrible at maths, I have finally
+            picked up soldering iron again, got some books, prepared some
+            prototypes and then finally commited to build one thing and don't
+            stop until it's done. I want to make digital modules that will ...
+            Zlosynth modules, including their PCBs and panels are made in
+            Czechia and Slovakia.
           </p>
         </div>
         <div class="right">
