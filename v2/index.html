@@ -187,6 +187,23 @@
 
       <div class="row">
         <div class="left">
+          <h2>two voices</h2>
+          <p>
+            The module has two voices, primary and secondary. The pitch of these
+            voices can be controlled independencly while all the other attributes
+            are shared.
+          </p>
+          <p>
+            The primary voice is controlled through the <b>TONE</b> knob and
+            CV input. The primary voice can play a chord, controlled through
+            the <b>CHORD</b> knob and CV input.
+          </p>
+          <p>
+            The secondary voice is controlled through the <b>TONE'</b> CV input
+            and is playing only when a jack is connected. Unlike the primary
+            voice, the secondary is not playing chords.
+          </p>
+
           <h2>wavetables</h2>
           <p>
             There are 37 wavetables to select from, divided into 4 banks to select from:
@@ -294,24 +311,41 @@
         <div class="right">
           <h2>chords</h2>
           <p>
-            TODO, explain how they are visualized, explains modes, list all of them
-          </p>
-
-          <h2>two voices</h2>
-          <p>
-            The module has two voices, primary and secondary. The pitch of these
-            voices can be controlled independencly while all the other attributes
-            are shared.
+            This module allows playing chords of up to 5 degrees, each of them
+            affected by the detune.
           </p>
           <p>
-            The primary voice is controlled through the <b>TONE</b> knob and
-            CV input. The primary voice can play a chord, controlled through
-            the <b>CHORD</b> knob and CV input.
+            In order to visualize selected chords, <b>LEDs</b> are displaying
+            the degrees of them. For example, if the selected chord is basic
+            fifth, LEDs I, III and V light up to signalize that first, third and
+            fifth are playing. If this does not sound like anything to you,
+            don't worry and just use your ears.
           </p>
           <p>
-            The secondary voice is controlled through the <b>TONE'</b> CV input
-            and is playing only when a jack is connected. Unlike the primary
-            voice, the secondary is not playing chords.
+            Furthermore, there are three different modes of playing chords.
+            These can be accessed by holding the <b>button</b> while turning
+            the <b>CHORD</b> knob:
+          </p>
+          <ol>
+            <li>
+              <b>Chords</b> – assorted set of 19 chords. Starting with single
+              note, followed-up with fifth, seventh, ninth and ninth inversions.
+            </li>
+            <li>
+              <b>Intervals</b> – not chords per-se. In this mode, the root note
+              is accompanied by another note of interval between minus two
+              octaves to plus octaves.
+            </li>
+            <li>
+              <b>Arpeggios</b> – four different chords that are incrementally
+              built while the parameter is being increased. Starting with the
+              root, adding second degree, third, ... up to five degrees.
+            </li>
+          </ol>
+          <p>
+            You may wonder how to select minor or major chords. Thanks to
+            quantization, the quality of each chord is selected automatically,
+            based on the root note, in order to stay in tune.
           </p>
 
           <h2>split output</h2>
