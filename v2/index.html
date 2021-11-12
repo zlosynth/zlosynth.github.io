@@ -116,8 +116,8 @@
           All playing tones are quantized to a configurable scale. 1V/oct inputs
           are quantized so any scale can be played with white keys of the piano.
 
-          Two lines can be played at the same time, each controled by an
-          independent 1V/oct input. There are also two separate line outputs,
+          Two lines can be played at the same time, each controlled by an
+          independent 1V/oct input. There are also two separate outputs,
           enabling to send each line to a different effect chain.
 
           Last but not least, a display consisting of 8 LEDs is used to make
@@ -134,7 +134,7 @@
             Achordion is 10 HP wide Eurorack module. It is powered by +12V/-12V
             2x5 connector. The red stripe (-12V) should be connected on the side
             of the board marked with the white line. The boxed power connector
-            should make it easier to connect with the right polarity.
+            should make it easier to connect with the correct polarity.
           </p>
         </div>
 
@@ -190,26 +190,26 @@
 
       <div class="row">
         <div class="left">
-          <h2>two voices</h2>
+          <h2>two lines</h2>
           <p>
-            The module has two voices, primary and secondary. The pitch of these
-            voices can be controled independencly while all the other attributes
+            The module has two lines, primary and secondary. The tone of these
+            lines can be controlled independencly while all the other attributes
             are shared.
           </p>
           <p>
-            The primary voice is controled through the <b>TONE</b> knob and
-            CV input. The primary voice can play a chord, controled through
+            The primary line is controlled through the <b>TONE</b> knob and CV
+            input. The primary line can play a chord, controlled through
             the <b>CHORD</b> knob and CV input.
           </p>
           <p>
-            The secondary voice is controled through the <b>TONE'</b> CV input
+            The secondary line is controlled through the <b>TONE'</b> CV input
             and is playing only when a jack is connected. Unlike the primary
-            voice, the secondary is not playing chords.
+            line, the secondary is not playing chords.
           </p>
 
           <h2>wavetables</h2>
           <p>
-            There are 37 wavetables to select from, divided into 4 banks to select from:
+            There are 37 wavetables to select from, divided into 4 banks:
           </p>
           <ol type="I">
             <li>
@@ -227,13 +227,12 @@
               <b>Sines</b> – the bottom half of this bank is a sequence of sine
               function multiplications providing variety of different sounds
               from clean to crazy noises. The upper half contains sums of sine
-              functions, sliding through this them provides a low-pass filter
-              effect.
+              functions, sliding through them provides a low-pass filter effect.
             </li>
           </ol>
           <p>
             The transitions between wavetables within a single bank are gradual
-            and very smooth, suitable for live control through ADSR.
+            and very smooth, suitable for live modulation.
           </p>
           <p>
             The bank can be selected by pressing the <b>button</b> (<b>Y</b>)
@@ -242,9 +241,9 @@
 
           <h2>detune</h2>
           <p>
-            This parameter is set through the <b>DETUNE</b> knob and CV input
+            This parameter is set through the <b>DETUNE</b> knob and CV input,
             and controls number of secondary voices per each played note and
-            their detune. The knob/CV input scrolls through three of these
+            their detune. The knob/CV input scrolls through four of these
             detune modes:
           </p>
 
@@ -253,8 +252,8 @@
               Disabled, only primary tones of the selected chord are playing.
             </li>
             <li>
-              Single sub-octave, the first degree of the chord is duplicated one
-              octave lower. This is a classic sub-octave.
+              The first factor of the chord is duplicated one octave lower. This
+              is a classic sub-octave.
             </li>
             <li>
               Each tone in the chord is duplicated once with a unisono. This
@@ -262,28 +261,26 @@
               amount of the detune.
             </li>
             <li>
-              Two sub-octaves per each degree. This can produce very rich wall
+              Two sub-octaves per each factor. This can produce very rich wall
               of sound and gets crazy with lot of detune.
             </li>
           </ol>
 
           <p>
             While moving through each of the modes, secondary voices are being
-            gradually put them of tune. In lower detunes, the difference in
-            frequency is very small and produces "beats" - making the sound
-            moving and warm, when it is pushed higher it turns into a wild
-            cacophony.
+            gradually detuned. In lower detunes, the difference in frequency is
+            very small and produces "beats" - making the sound moving and warm,
+            when it is pushed higher it turns into a wild cacophony.
           </p>
 
           <h2>quantization</h2>
           <p>
-            Quantizing makes sure that anything that comes out of the module
-            stays in tune. Thanks to this, you can spend less time thinking
-            about the harmony, easily play with other musicians, and more.
+            Quantizing makes sure that everything that comes out of the module
+            stays in tune.
           </p>
           <p>
-            To select root note of the scale, hold the <b>button</b>
-            while turning the <b>TONE</b>
+            To select root note of the scale, hold the <b>button</b> while
+            turning the <b>TONE</b>
             knob. <b>LEDs</b> <b>I</b>&nbsp;through&nbsp;<b>VII</b> then
             symbolize notes of C major: C,&nbsp;D,&nbsp;...,&nbsp;B.
             The <b>#</b>&nbsp;<b>LED</b> signalizes that the note is sharp.
@@ -305,24 +302,26 @@
           </ol>
           <p>
             If you are unsure on what to dial in, keep the default root note and
-            pick one of the modes (I personally really like Dorian), just use
-            you ears. If you know basics of music theory, being able to select
-            the scale may enable you to combine this module with other
-            instruments or other musicians.
+            experiment with the modes.
+          </p>
+          <p>
+            CV inputs <b>TONE</b> and <b>TONE'</b> are additionally quantized to
+            the white keys of a piano keyboard. This allows to play any scale
+            using only these keys.
           </p>
         </div>
         <div class="right">
           <h2>chords</h2>
           <p>
-            This module allows playing chords of up to 5 degrees, each of them
+            This module allows playing chords of up to 5 factors, each of them
             affected by the detune.
           </p>
           <p>
-            In order to visualize selected chords, <b>LEDs</b> are displaying
-            the degrees of them. For example, if the selected chord is basic
-            fifth, LEDs I, III and V light up to signalize that first, third and
-            fifth are playing. If this does not sound like anything to you,
-            don't worry and just use your ears.
+            In order to visualize selected chords, the <b>LEDs</b> are
+            displaying their factors. For example, if the selected chord is
+            basic fifth, LEDs I, III and V light up to signalize that first,
+            third and fifth are playing. If this does not sound like anything to
+            you, don't worry and just use your ears.
           </p>
           <p>
             Furthermore, there are three different modes of playing chords.
@@ -337,12 +336,12 @@
             <li>
               <b>Intervals</b> – not chords per-se. In this mode, the root note
               is accompanied by another note of interval between minus two
-              octaves to plus octaves.
+              octaves to plus two octaves.
             </li>
             <li>
               <b>Arpeggios</b> – four different chords that are incrementally
               built while the parameter is being increased. Starting with the
-              root, adding second degree, third, ... up to five degrees.
+              root, adding second factor, third, ...
             </li>
           </ol>
           <p>
@@ -356,19 +355,19 @@
             There are two audio outputs in the module: <b>OUT</b>
             and <b>OUT'</b>. When only one of these outputs is connected, it
             gets mixed with the unconnected one. When both outputs are
-            connected, each plays a different line. This allows to run each line
-            through a different effect chain.
+            connected, each plays different voices. This allows to run through
+            two different effect chains.
           </p>
           <p>
-            The content of these lines depends on the playing voices. If the
-            secondary voice is playing, <b>OUT</b> plays the primary voice,
-            controled by <b>TONE</b> and <b>OUT'</b> is playing the secondary
-            voice, controled by <b>TONE'</b>.
+            The content of these outputs depends on the playing lines. If the
+            secondary line is playing, <b>OUT</b> plays the primary line,
+            controlled by <b>TONE</b> and <b>OUT'</b> is playing the secondary
+            line, controlled by <b>TONE'</b>.
           </p>
           <p>
-            However, when the secondary voice is not connected, <b>OUT</b>
-            contains the root note of the primary voice, while <b>OUT'</b>
-            contains the rest of the chord played by the primary voice.
+            However, when the secondary line is not connected, <b>OUT</b>
+            contains the root note of the primary line, while <b>OUT'</b>
+            contains the rest of the chord played by the primary line.
           </p>
 
           <h2>calibration</h2>
@@ -388,16 +387,16 @@
           </ol>
           <img src="piano.svg" style="border-radius: 0; margin-bottom: 30px;">
           <p>
-            If you don't use a keyboard as a <b>TONE</b> input, there is no need
-            to calibrate.
+            If you don't use a keyboard to control <b>TONE</b> or <b>TONE'</b>,
+            there is no need for calibration.
           </p>
 
           <h2>reset</h2>
           <p>
-            TODO: By default parameters are stored between restarts
-            To reset calibration and all saved secondary parameters (wavetable
-            bank, scale tonic, scale mode, chord mode), hold the <b>button</b>
-            pressed while powering on the module.
+            Calibration and all secondary parameters (wavetable bank, scale
+            tonic, scale mode, chord mode) are stored between restarts of the
+            module. To reset their values, hold the <b>button</b> pressed while
+            powering on the module.
           </p>
 
           <h2>specs</h2>
