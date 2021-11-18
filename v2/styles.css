@@ -12,12 +12,6 @@ i {
   font-style: italic;
 }
 
-a {
-  font-weight: 600;
-  text-decoration: none;
-  color: black;
-}
-
 dt, p, li {
   line-height: 1.2;
 }
@@ -26,9 +20,31 @@ a:hover {
   text-decoration: underline;
 }
 
+.button {
+  background-color: #333;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+a:hover.button {
+  text-decoration: none;
+}
+
 header {
   background: #222;
   height: 120px;
+  color: white;
+}
+
+header a, header a:hover {
+  text-decoration: none;
   color: white;
 }
 
@@ -250,7 +266,7 @@ dl {
 footer {
   background: #222;
   color: white;
-  margin-top: 100px;
+  margin-top: 50px;
   padding-bottom: 10px;
 }
 
@@ -261,6 +277,8 @@ footer .content {
 }
 
 footer a {
+  font-weight: 600;
+  text-decoration: none;
   color: white;
 }
 
