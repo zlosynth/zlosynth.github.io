@@ -71,7 +71,7 @@ section#introduction {
   color: white;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 360px) {
   header {
     height: 210px;
   }
