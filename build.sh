@@ -9,8 +9,7 @@ echo 'Rendering the index'
 
     export CONTENT="$(envsubst < src/frontpage/frontpage.html.tmpl)"
 
-    export TITLE='Zlosynth Instruments'
-    export DESCRIPTION='Hailing from Brno, Czechia, Zlosynth Instruments is a project which aims to provide intuitive and immersive eurorack modules that are sitting right between musical harmony and insanity.'
+    set -a; source src/frontpage/header.env; set +a
     export HEADER="$(cat src/header.html.tmpl)"
 
     export FOOTER="$(cat src/footer-long.html.tmpl)"
