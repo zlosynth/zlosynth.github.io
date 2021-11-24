@@ -1,0 +1,49 @@
+  <footer>
+    <div class="content">
+      <div class="row">
+        <div class="left">
+          <h2>About</h2>
+          <p>
+            My name is Petr.
+
+            I played flute and trumpet as a kid, drums as an adolescent and
+            guitar as an adult.
+
+            I have been a computer nerd ever since the flute times.
+
+            And I have always enjoyed building stuff.
+
+            During the pandemic in 2020, despite not knowing anything about
+            embedded systems, being mediocre at music theory and subpar at
+            maths, I have decided to have some good time designing and
+            assembling my own eurorack module.
+          </p>
+        </div>
+        <div class="right">
+          <p>
+            <a href="https://www.youtube.com/channel/UCD6gBDyqs-rpUAwEPl8IPCA" target="_blank">YouTube</a><br />
+            <a href="https://www.instagram.com/zlosynth/" target="_blank">Instagram</a><br />
+            <a href="https://github.com/zlosynth/" target="_blank">GitHub</a>
+          </p>
+          <h2>Contact</h2>
+          <p id="contact">
+            JavaScript required
+          </p>
+        </div>
+      </div>
+      <div>
+        <p style="text-align: center;">
+          Content on this website is available under a CC-BY-SA 3.0 license.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript">
+    var part1 = "&#112;&#101;&#116;&#114;";
+    var part2 = Math.pow(2,6);
+    var part3 = String.fromCharCode(part2);
+    var part4 = "&#122;&#108;&#111;&#115;&#121;&#110;&#116;&#104;&#46;&#99;&#111;&#109;"
+    var part5 = part1 + String.fromCharCode(part2) + part4;
+    document.getElementById("contact").innerHTML = part1 + "<!-- foo@bar -->" + part3 + "<!-- shrubbery@baz -->" + part4;
+  </script>
