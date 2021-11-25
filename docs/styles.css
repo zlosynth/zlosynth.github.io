@@ -4,6 +4,10 @@ body {
   font-family: Helvetica, Arial, Sans-Serif;
 }
 
+dt, p, li {
+  line-height: 1.3;
+}
+
 b {
   font-weight: 600;
 }
@@ -12,8 +16,54 @@ i {
   font-style: italic;
 }
 
-dt, p, li {
-  line-height: 1.2;
+dl {
+  padding-bottom: 30px;
+}
+
+dt, dd {
+  display: inline;
+}
+
+dt {
+  font-weight: 600;
+}
+
+ol {
+  list-style-type: upper-roman;
+  margin-bottom: 30px;
+}
+
+ol.arabic {
+  list-style-type: arabic;
+}
+
+ol li {
+  margin-bottom: 3px;
+  margin-left: 25px;
+}
+
+h2 {
+  font-size: 2em;
+  padding-top: 12px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.75em;
+  padding-top: 12px;
+  padding-bottom: 20px;
+  text-align: right;
+}
+
+dt:before {
+  content: "";
+  display: block;
+  margin-bottom: 7px;
+}
+
+a {
+  text-decoration: none;
 }
 
 a:hover {
@@ -65,12 +115,6 @@ header h1 {
   letter-spacing: 1px;
 }
 
-section#introduction {
-  height: calc(100% - 120px);
-  background: #222;
-  color: white;
-}
-
 @media screen and (max-width: 360px) {
   header {
     height: 210px;
@@ -84,7 +128,15 @@ section#introduction {
   header h1 {
     padding-top: 26px;
   }
+}
 
+section#introduction {
+  height: calc(100% - 120px);
+  background: #222;
+  color: white;
+}
+
+@media screen and (max-width: 360px) {
   section#introduction {
     height: calc(100% - 210px);
   }
@@ -107,158 +159,105 @@ section#introduction .content p {
   font-size: 1.2em;
 }
 
-section#achordion-intro {
+section#module-intro {
   background: white;
 }
 
-section#achordion-intro .content {
+section#module-intro .content {
   max-width: 900px;
   margin: auto;
   padding: 20px;
 }
 
-section#achordion-intro .content h1 {
-  font-size: 2em;
-  padding-top: 12px;
-  padding-bottom: 30px;
-  text-align: center;
-}
-
-section#achordion-intro .content h2 {
-  font-size: 1.75em;
-  padding-top: 12px;
-  padding-bottom: 20px;
-  text-align: right;
-}
-
-section#achordion-intro .content .lead {
-    text-align: center;
-}
-
-section#achordion-intro .content .lead p {
+section#module-intro .content .lead p {
   line-height: 1.5;
   font-size: 1.2em;
 }
 
-section#achordion-intro .content p {
-  line-height: 1.3;
+section#module-intro .content .lead {
+  text-align: center;
+}
+
+section#module-intro .content p {
   padding-bottom: 30px;
 }
 
-section#achordion-gallery {
+section#module-gallery {
   background: white;
 }
 
-section#achordion-gallery .row {
+section#module-gallery .row {
   display: flex;
   flex-wrap: wrap;
 }
 
-section#achordion-gallery .column {
+section#module-gallery .column {
   flex: 25%;
   max-width: 25%;
 }
 
-section#achordion-gallery .column img {
+section#module-gallery .column img {
   vertical-align: middle;
   width: 100%;
 }
 
 @media screen and (max-width: 800px) {
-  section#achordion-gallery .column {
+  section#module-gallery .column {
     flex: 50%;
     max-width: 50%;
   }
 }
 
 @media screen and (max-width: 600px) {
-  section#achordion-gallery .column {
+  section#module-gallery .column {
     flex: 100%;
     max-width: 100%;
   }
 }
 
-section#achordion-description {
+section#module-description {
   background: white;
 }
 
-section#achordion-description .content {
+section#module-description .content {
   max-width: 900px;
   margin: auto;
   padding: 20px;
 }
 
-section#achordion-description .content h2 {
-  font-size: 1.75em;
-  padding-top: 42px;
-  padding-bottom: 30px;
-  text-align: right;
-}
-
-section#achordion-description .content p {
-  line-height: 1.3;
+section#module-description .content p {
   padding-bottom: 30px;
 }
 
-section#achordion-description ol {
-  list-style-type: upper-roman;
-  margin-bottom: 30px;
-}
-
-section#achordion-description ol.arabic {
-  list-style-type: arabic;
-}
-
-section#achordion-description ol li {
-  margin-bottom: 3px;
-  margin-left: 25px;
-}
-
-section#achordion-description .row {
+section#module-description .row {
   display: flex;
 }
 
-section#achordion-description .left {
+section#module-description .left {
   flex: 50%;
   padding-right: 30px;
 }
 
-section#achordion-description .right {
+section#module-description .right {
   flex: 50%;
   padding-left: 30px;
 }
 
-section#achordion-description dt, section#achordion-description dd {
-  display: inline;
-}
-
-section#achordion-description dt {
-  font-weight: 600;
-}
-
-section#achordion-description dt:before {
-  content: "";
-  display: block;
-  margin-bottom: 7px;
-}
-
-section#achordion-description img {
+section#module-description img {
   width: 100%;
   border-radius: 10px;
 }
 
-dl {
-  padding-bottom: 30px;
-}
-
 @media screen and (max-width: 600px) {
-  section#achordion-description .row {
+  section#module-description .row {
     display: block;
   }
-  section#achordion-description .left {
+
+  section#module-description .left {
     padding-right: 0;
   }
-  section#achordion-description .right {
+
+  section#module-description .right {
     padding-left: 0;
   }
 }
@@ -278,18 +277,19 @@ footer .content {
 
 footer a {
   font-weight: 600;
-  text-decoration: none;
   color: white;
 }
 
 footer h2 {
   margin-bottom: 10px;
   font-weight: 600;
+  font-size: 1em;
+  padding: 0;
+  text-align: left;
 }
 
 footer p {
   margin-bottom: 20px;
-  line-height: 1.3;
 }
 
 footer .row {
@@ -311,9 +311,11 @@ footer .right {
   footer .row {
     display: block;
   }
+
   footer .left {
     padding-right: 0;
   }
+
   footer .right {
     padding-left: 0;
   }
