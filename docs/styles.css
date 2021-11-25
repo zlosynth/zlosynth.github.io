@@ -159,6 +159,32 @@ section#introduction .content p {
   font-size: 1.2em;
 }
 
+.module-thumbnail {
+  text-align: center;
+}
+
+.module-thumbnail img {
+  border-radius: 5px;
+  width: 220px;
+}
+
+.module-thumbnail h3 {
+  text-align: center;
+  margin: 20px 0 10px 0;
+  padding: 0;
+  color: black;
+  font-size: 1.2em
+}
+
+.module-thumbnail a:hover {
+  text-decoration: none;
+}
+
+.module-thumbnail .description {
+  width: 220px;
+  margin: auto;
+}
+
 section#module-intro {
   background: white;
 }
