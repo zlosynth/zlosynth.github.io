@@ -233,12 +233,12 @@ section#module-description .row {
   display: flex;
 }
 
-section#module-description .left {
+section#module-description .column-left {
   flex: 50%;
   padding-right: 30px;
 }
 
-section#module-description .right {
+section#module-description .column-right {
   flex: 50%;
   padding-left: 30px;
 }
@@ -253,11 +253,11 @@ section#module-description img {
     display: block;
   }
 
-  section#module-description .left {
+  section#module-description .column-left {
     padding-right: 0;
   }
 
-  section#module-description .right {
+  section#module-description .column-right {
     padding-left: 0;
   }
 }
@@ -297,12 +297,12 @@ footer .row {
   margin-bottom: 20px;
 }
 
-footer .left {
+footer .column-left {
   flex: 75%;
   padding-right: 30px;
 }
 
-footer .right {
+footer .column-right {
   flex: 25%;
   padding-left: 30px;
 }
@@ -312,11 +312,11 @@ footer .right {
     display: block;
   }
 
-  footer .left {
+  footer .column-left {
     padding-right: 0;
   }
 
-  footer .right {
+  footer .column-right {
     padding-left: 0;
   }
 }
