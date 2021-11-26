@@ -95,6 +95,15 @@ a:hover.button {
   text-decoration: none;
 }
 
+.lead {
+  text-align: center;
+}
+
+.lead p {
+  line-height: 1.5;
+  font-size: 1.2em;
+}
+
 header {
   background: #222;
   height: 120px;
@@ -167,6 +176,12 @@ section#introduction .content p {
   font-size: 1.2em;
 }
 
+section#modules .content {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
 .module-thumbnail {
   text-align: center;
 }
@@ -193,23 +208,10 @@ section#introduction .content p {
   margin: auto;
 }
 
-section#module-intro {
-  background: white;
-}
-
 section#module-intro .content {
   max-width: 900px;
   margin: auto;
   padding: 20px;
-}
-
-section#module-intro .content .lead p {
-  line-height: 1.5;
-  font-size: 1.2em;
-}
-
-section#module-intro .content .lead {
-  text-align: center;
 }
 
 section#module-intro .content p {
