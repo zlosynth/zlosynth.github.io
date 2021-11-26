@@ -155,19 +155,19 @@ header h1 {
   }
 }
 
-section#introduction {
+section.introduction {
   height: calc(100% - 120px);
   background: #222;
   color: white;
 }
 
 @media screen and (max-width: 360px) {
-  section#introduction {
+  section.introduction {
     height: calc(100% - 210px);
   }
 }
 
-section#introduction .content {
+section.introduction .content {
   height: 100%;
   line-height: 650px;
   max-width: 900px;
@@ -178,13 +178,13 @@ section#introduction .content {
 }
 
 
-section#introduction .content p {
+section.introduction .content p {
   display: inline-block;
   line-height: 1.5;
   font-size: 1.2em;
 }
 
-section#modules .content {
+section.modules .content {
   max-width: 900px;
   margin: auto;
   padding: 20px;
@@ -216,92 +216,92 @@ section#modules .content {
   margin: auto;
 }
 
-section#module-intro .content {
+section.module-intro .content {
   max-width: 900px;
   margin: auto;
   padding: 20px;
 }
 
-section#module-intro .content p {
+section.module-intro .content p {
   padding-bottom: 30px;
 }
 
-section#module-gallery {
+section.module-gallery {
   background: white;
 }
 
-section#module-gallery .row {
+section.module-gallery .row {
   display: flex;
   flex-wrap: wrap;
 }
 
-section#module-gallery .column {
+section.module-gallery .column {
   flex: 25%;
   max-width: 25%;
 }
 
-section#module-gallery .column img {
+section.module-gallery .column img {
   vertical-align: middle;
   width: 100%;
 }
 
 @media screen and (max-width: 800px) {
-  section#module-gallery .column {
+  section.module-gallery .column {
     flex: 50%;
     max-width: 50%;
   }
 }
 
 @media screen and (max-width: 600px) {
-  section#module-gallery .column {
+  section.module-gallery .column {
     flex: 100%;
     max-width: 100%;
   }
 }
 
-section#module-description {
+section.module-description {
   background: white;
 }
 
-section#module-description .content {
+section.module-description .content {
   max-width: 900px;
   margin: auto;
   padding: 20px;
 }
 
-section#module-description .content p {
+section.module-description .content p {
   padding-bottom: 30px;
 }
 
-section#module-description .row {
+section.module-description .row {
   display: flex;
 }
 
-section#module-description .column-left {
+section.module-description .column-left {
   flex: 50%;
   padding-right: 30px;
 }
 
-section#module-description .column-right {
+section.module-description .column-right {
   flex: 50%;
   padding-left: 30px;
 }
 
-section#module-description img {
+section.module-description img {
   width: 100%;
   border-radius: 10px;
 }
 
 @media screen and (max-width: 600px) {
-  section#module-description .row {
+  section.module-description .row {
     display: block;
   }
 
-  section#module-description .column-left {
+  section.module-description .column-left {
     padding-right: 0;
   }
 
-  section#module-description .column-right {
+  section.module-description .column-right {
     padding-left: 0;
   }
 }
