@@ -187,16 +187,32 @@ section.introduction .content p {
 section.modules .content {
   max-width: 900px;
   margin: auto;
-  padding: 20px;
+  padding-top: 20px;
+}
+
+section.modules .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section.modules .column {
+  flex: 33%;
+}
+
+@media screen and (max-width: 900px) {
+  section.modules .column {
+    flex: 100%;
+  }
 }
 
 .module-thumbnail {
   text-align: center;
+  margin: 30px 0 10px 0;
 }
 
 .module-thumbnail img {
   border-radius: 5px;
-  width: 220px;
+  max-width: 220px;
 }
 
 .module-thumbnail h3 {
