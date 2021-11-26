@@ -99,6 +99,10 @@ a:hover.button {
   text-align: center;
 }
 
+.lead h2 {
+  padding-bottom: 20px;
+}
+
 .lead p {
   line-height: 1.5;
   font-size: 1.2em;
