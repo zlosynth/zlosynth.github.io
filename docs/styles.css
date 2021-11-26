@@ -103,6 +103,10 @@ a:hover.button {
   padding-bottom: 20px;
 }
 
+.lead a {
+  color: black;
+}
+
 .lead p {
   line-height: 1.5;
   font-size: 1.2em;
