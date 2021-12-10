@@ -28,7 +28,7 @@ echo 'Rendering achordion overview'
     export FOOTER="$(cat src/footer-short.html.tmpl)"
 
     PAGE="$(envsubst < src/main.html.tmpl)"
-    echo "${PAGE}" > docs/achordion.html
+    echo "${PAGE}" > docs/achordion/index.html
 )
 
 echo 'Rendering achordion manual'
@@ -41,5 +41,5 @@ echo 'Rendering achordion manual'
     export FOOTER="$(cat src/footer-short.html.tmpl)"
 
     PAGE="$(envsubst < src/main.html.tmpl)"
-    echo "${PAGE}" > docs/achordion-manual.html
+    echo "${PAGE}" > docs/achordion/manual/index.html
 )
