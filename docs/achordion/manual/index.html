@@ -103,8 +103,8 @@
             CV inputs <b>TABLE</b> (<b>3</b>), <b>DETUNE</b> (<b>4</b>)
             and <b>CHORD</b> (<b>5</b>) are used to control the same attributes
             as the knobs described above. The value selected by the knob is
-            added to the value set through CV. These inputs span between -5 and
-            +5 V.
+            added to the value set through CV. The first two inputs span between
+            -5 and +5 V. The third one between 0 and +10 V.
           </p>
           <p>
             Audio outputs <b>OUT</b> (<b>6</b>) and <b>OUT'</b> (<b>7</b>) play
@@ -235,6 +235,10 @@
             the white keys of a piano keyboard. This allows to play any scale
             using only these keys.
           </p>
+          <p>
+            Quantization of <b>TONE'</b> can be toggled by holding
+            the <b>button</b> while plugging in <b>DETUNE</b>.
+          </p>
         </div>
         <div class="column-right">
           <h3>chords</h3>
@@ -274,6 +278,12 @@
             You may wonder how to select minor or major chords. Thanks to
             quantization, the quality of each chord is selected automatically,
             based on the root note, in order to stay in tune.
+          </p>
+          <p>
+            If the <b>button</b> is held down while the <b>CHORD</b> CV is being
+            plugged in, the input gets calibrated and then can used in 1V/oct
+            mode, with each chord assigned to a white key. This mode is exitted
+            when the CV is unplugged.
           </p>
 
           <h3>split output</h3>
@@ -330,7 +340,7 @@
             <dt>Width:</dt>
             <dd>10 HP</dd>
             <dt>Depth:</dt>
-            <dd>XX mm, behind rails, with power connected</dd>
+            <dd>42 mm, behind rails, with power connected</dd>
             <dt>Power:</dt>
             <dd>+12 V (XX mA), -12 V (YY mA)</dd>
             <dt>Input impedance:</dt>
