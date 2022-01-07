@@ -30,16 +30,3 @@ echo 'Rendering achordion overview'
     PAGE="$(envsubst < src/main.html.tmpl)"
     echo "${PAGE}" > docs/achordion/index.html
 )
-
-echo 'Rendering achordion manual'
-(
-    export CONTENT="$(cat src/achordion/manual.html.tmpl)"
-
-    set -a; source src/achordion/manual.header.env; set +a
-    export HEADER="$(cat src/header.html.tmpl)"
-
-    export FOOTER="$(cat src/footer-short.html.tmpl)"
-
-    PAGE="$(envsubst < src/main.html.tmpl)"
-    echo "${PAGE}" > docs/achordion/manual/index.html
-)
