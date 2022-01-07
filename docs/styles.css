@@ -208,7 +208,7 @@ section.modules .column {
 
 .module-thumbnail img {
   border-radius: 5px;
-  max-width: 220px;
+  height: 560px;
 }
 
 .module-thumbnail h3 {
