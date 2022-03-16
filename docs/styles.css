@@ -110,7 +110,7 @@ a:hover.button {
 
 header {
   background: #222;
-  height: 120px;
+  height: 230px;
   color: white;
 }
 
@@ -125,54 +125,27 @@ header .content {
   padding: 20px;
 }
 
-header .column {
-  float: left;
-  width: 50%;
-}
-
-header h1 {
-  font-size: 1.85em;
-  padding-top: 12px;
-  letter-spacing: 1px;
-}
-
-@media screen and (max-width: 360px) {
-  header {
-    height: 210px;
-  }
-
-  header .column {
-    width: 100%;
-    text-align: center;
-  }
-
-  header h1 {
-    padding-top: 26px;
-  }
-}
-
 section.introduction {
-  height: calc(100% - 120px);
+  min-height: calc(75% - 230px);
   background: #222;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 360px) {
   section.introduction {
-    height: calc(100% - 210px);
+    min-height: calc(100% - 230px);
   }
 }
 
 section.introduction .content {
-  height: 100%;
-  line-height: 650px;
   max-width: 900px;
-  margin: auto;
-  padding: 20px;
+  padding: 60px 20px 120px 20px;
   margin: auto;
   text-align: center;
 }
-
 
 section.introduction .content p {
   display: inline-block;
