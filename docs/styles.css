@@ -38,6 +38,11 @@ ol li {
   margin-left: 25px;
 }
 
+ul {
+  list-style-type: square;
+  margin: -10px 0 30px 20px;
+}
+
 h2 {
   font-size: 2em;
   padding-top: 12px;
