@@ -295,6 +295,22 @@ footer .content {
   padding: 40px 20px 0 20px;
 }
 
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.video iframe, .video object, .video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 footer a {
   font-weight: 600;
   color: white;
