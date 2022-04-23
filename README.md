@@ -1,7 +1,19 @@
 # zlosynth.com
 
-This repository contains sources of the website. To rebuild the website from
-files under the `src/` directory, call `make`.
+This repository contains source code of the website,
+[zlosynth.com](https://zlosynth.com).
+
+Sources for generated content are kept under the `src/` directory.
+
+Static and generated content is kept under the `docs/` directory. This directory is then served as the website.
+
+``` sh
+# Rebuild the contents
+make build
+
+# Preview the website locally
+make serve
+```
 
 # License
 
