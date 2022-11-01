@@ -295,6 +295,10 @@ footer .content {
   padding: 40px 20px 0 20px;
 }
 
+footer .social a {
+  line-height: 1.5;
+}
+
 .video {
   position: relative;
   padding-bottom: 56.25%;
