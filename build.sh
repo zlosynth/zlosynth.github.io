@@ -2,10 +2,15 @@
 
 set -e
 
+modules=(achordion kaseta)
+
 echo 'Rendering the index'
 (
-    set -a; source src/achordion/frontpage-module.env; set +a
-    export MODULES="$(envsubst < src/frontpage/module.html.tmpl)"
+    export MODULES=''
+    for module in ${modules[@]}; do
+        set -a; source "src/${module}/frontpage-module.env"; set +a
+        export MODULES="${MODULES}$(envsubst < src/frontpage/module.html.tmpl)"
+    done
 
     export CONTENT="$(envsubst < src/frontpage/frontpage.html.tmpl)"
 
@@ -18,15 +23,17 @@ echo 'Rendering the index'
     echo "${PAGE}" > docs/index.html
 )
 
-echo 'Rendering achordion overview'
-(
-    export CONTENT="$(cat src/achordion/overview.html.tmpl)"
+for module in ${modules[@]}; do
+    echo "Rendering ${module} overview"
+    (
+        export CONTENT="$(cat src/${module}/overview.html.tmpl)"
 
-    set -a; source src/achordion/overview.header.env; set +a
-    export HEADER="$(cat src/header.html.tmpl)"
+        set -a; source "src/${module}/overview.header.env"; set +a
+        export HEADER="$(cat src/header.html.tmpl)"
 
-    export FOOTER="$(cat src/footer-short.html.tmpl)"
+        export FOOTER="$(cat src/footer-short.html.tmpl)"
 
-    PAGE="$(envsubst < src/main.html.tmpl)"
-    echo "${PAGE}" > docs/achordion/index.html
-)
+        PAGE="$(envsubst < src/main.html.tmpl)"
+        echo "${PAGE}" > "docs/${module}/index.html"
+    )
+done
