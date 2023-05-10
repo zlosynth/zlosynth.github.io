@@ -3,7 +3,7 @@
    inkscape:export-ydpi="110.65"
    inkscape:export-xdpi="110.65"
    inkscape:export-filename="/home/phoracek/code/zlosynth/zlosynth.github.io/docs/achordion/panel.png"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    width="190.86613"
    height="485.66928"
    viewBox="0 0 50.499998 128.5"
@@ -34,16 +34,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.3511245"
-     inkscape:cx="146.91466"
-     inkscape:cy="240.54038"
+     inkscape:cx="-14.802485"
+     inkscape:cy="209.45516"
      inkscape:document-units="mm"
      inkscape:current-layer="layer7"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1916"
-     inkscape:window-height="1033"
+     inkscape:window-height="1029"
      inkscape:window-x="0"
-     inkscape:window-y="45"
+     inkscape:window-y="49"
      inkscape:window-maximized="1"
      showguides="false"
      inkscape:guide-bbox="true"
@@ -54,7 +54,9 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
     <sodipodi:guide
        position="23.180646,118.95133"
        orientation="0,-1"
@@ -73,47 +75,58 @@
     <sodipodi:guide
        position="1.4958689,103.37795"
        orientation="1,0"
-       id="guide2218" />
+       id="guide2218"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="49.055968,99.020496"
        orientation="1,0"
-       id="guide2563" />
+       id="guide2563"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="44.661057,16.608042"
        orientation="0,-1"
-       id="guide4968" />
+       id="guide4968"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="15.918638,31.415262"
        orientation="0,-1"
-       id="guide4974" />
+       id="guide4974"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="46.417848,3.5991784"
        orientation="1,0"
-       id="guide5550" />
+       id="guide5550"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="5.0597269,15.929445"
        orientation="1,0"
-       id="guide5632" />
+       id="guide5632"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="67.248101,0.34763648"
        orientation="1,0"
-       id="guide22034" />
+       id="guide22034"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="72.043351,0.48660259"
        orientation="1,0"
-       id="guide22036" />
+       id="guide22036"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="44.204028,2.9205544"
        orientation="1,0"
-       id="guide28378" />
+       id="guide28378"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="8.7231979,62.01115"
        orientation="1,0"
-       id="guide32398" />
+       id="guide32398"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="6.6438359,61.503988"
        orientation="1,0"
-       id="guide32400" />
+       id="guide32400"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -1564,5 +1577,23 @@
            y="123.7455" />
       </g>
     </g>
+    <circle
+       style="display:inline;fill:none;stroke:#ffffff;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1457-2"
+       cx="35.37429"
+       cy="111.93211"
+       r="4.4864721"
+       inkscape:export-filename="/home/phoracek/code/zlosynth/private/kaseta/text.png"
+       inkscape:export-xdpi="899.97046"
+       inkscape:export-ydpi="899.97046" />
+    <circle
+       style="display:inline;fill:none;stroke:#ffffff;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1457-2-3"
+       cx="45.482609"
+       cy="111.79182"
+       r="4.4864721"
+       inkscape:export-filename="/home/phoracek/code/zlosynth/private/kaseta/text.png"
+       inkscape:export-xdpi="899.97046"
+       inkscape:export-ydpi="899.97046" />
   </g>
 </svg>
