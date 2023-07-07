@@ -186,7 +186,8 @@ section.modules .column {
 
 .module-thumbnail img {
   border-radius: 5px;
-  height: 560px;
+  max-height: 560px;
+  max-width: 90%;
 }
 
 .module-thumbnail h3 {
