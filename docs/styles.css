@@ -228,13 +228,13 @@ section.module-gallery .row {
 }
 
 section.module-gallery .column {
-  flex: 18%;
-  max-width: 18%;
+  flex: 29%;
+  max-width: 29%;
 }
 
 section.module-gallery .column-wide {
-  flex: 28%;
-  max-width: 28%;
+  flex: 42%;
+  max-width: 42%;
 }
 
 section.module-gallery .column img, section.module-gallery .column-wide img {
