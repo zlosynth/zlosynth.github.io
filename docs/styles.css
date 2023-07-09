@@ -67,10 +67,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 .text-right {
   text-align: right;
 }
@@ -198,8 +194,7 @@ section.modules .column {
   font-size: 1.2em
 }
 
-.module-thumbnail-title:hover,
-.module-thumbnail-image:hover ~ .module-thumbnail-title {
+.module-thumbnail:hover h3 {
   text-decoration: underline;
   text-decoration-thickness: 2px;
   text-decoration-color: black;
@@ -208,6 +203,7 @@ section.modules .column {
 .module-thumbnail .description {
   width: 220px;
   margin: auto;
+  color: black;
 }
 
 section.module-intro .content {
@@ -301,6 +297,10 @@ footer .content {
 
 footer .social a {
   line-height: 1.5;
+}
+
+footer .social a:hover {
+  text-decoration: underline;
 }
 
 .video {
