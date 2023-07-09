@@ -184,6 +184,11 @@ section.modules .column {
   border-radius: 5px;
   max-height: 560px;
   max-width: 90%;
+  border: 3px solid transparent;
+}
+
+.module-thumbnail:hover img {
+  border: 3px solid black;
 }
 
 .module-thumbnail h3 {
