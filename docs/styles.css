@@ -198,7 +198,8 @@ section.modules .column {
   font-size: 1.2em
 }
 
-.module-thumbnail:hover a {
+.module-thumbnail-title:hover,
+.module-thumbnail-image:hover ~ .module-thumbnail-title {
   text-decoration: underline;
   text-decoration-thickness: 2px;
   text-decoration-color: black;
