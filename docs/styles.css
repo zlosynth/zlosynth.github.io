@@ -189,6 +189,7 @@ section.modules .column {
 
 .module-thumbnail:hover img {
   border: 3px solid black;
+  background-color: black;
 }
 
 .module-thumbnail h3 {
