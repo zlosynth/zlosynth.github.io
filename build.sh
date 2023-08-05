@@ -9,7 +9,7 @@ echo 'Rendering the index'
 (
     export MODULES=''
     for module in ${modules[@]}; do
-        set -a; source "src/${module}/frontpage-module.env"; set +a
+        set -a; source "src/modules/${module}/frontpage-module.env"; set +a
         export MODULES="${MODULES}$(envsubst < src/frontpage/module.html.tmpl)"
     done
 
@@ -46,9 +46,9 @@ echo 'Rendering retailers'
 for module in ${modules[@]}; do
     echo "Rendering ${module} overview"
     (
-        export CONTENT="$(cat src/${module}/overview.html.tmpl)"
+        export CONTENT="$(cat src/modules/${module}/overview.html.tmpl)"
 
-        set -a; source "src/${module}/overview.header.env"; set +a
+        set -a; source "src/modules/${module}/overview.header.env"; set +a
         export HEADER="$(cat src/header.html.tmpl)"
 
         export FOOTER="$(cat src/footer-short.html.tmpl)"
