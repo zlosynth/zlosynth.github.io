@@ -297,6 +297,16 @@ section.module-description img {
   border-radius: 10px;
 }
 
+/* Sticky footer */
+#page {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+}
+#content {
+  flex: 1;
+}
+
 footer {
   background: #222;
   color: white;
