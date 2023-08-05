@@ -154,33 +154,39 @@ section.introduction .content p {
   font-size: 1.2em;
 }
 
-section.modules .content {
+section.modules .content,
+section.retailers .content {
   max-width: 900px;
   margin: auto;
   padding-top: 20px;
 }
 
-section.modules .row {
+section.modules .row,
+section.retailers .row {
   display: flex;
   flex-wrap: wrap;
 }
 
-section.modules .column {
+section.modules .column,
+section.retailers .column {
   flex: 33%;
 }
 
 @media screen and (max-width: 900px) {
-  section.modules .column {
+  section.modules .column,
+  section.retailers .column {
     flex: 100%;
   }
 }
 
-.module-thumbnail {
+.module-thumbnail,
+.retailer-thumbnail {
   text-align: center;
   margin: 30px 0 10px 0;
 }
 
-.module-thumbnail img {
+.module-thumbnail img,
+.retailer-thumbnail img {
   border-radius: 5px;
   max-height: 560px;
   max-width: 90%;
@@ -192,7 +198,8 @@ section.modules .column {
   background-color: black;
 }
 
-.module-thumbnail h3 {
+.module-thumbnail h3,
+.retailer-thumbnail h3 {
   text-align: center;
   margin: 20px 0 10px 0;
   padding: 0;
@@ -200,14 +207,16 @@ section.modules .column {
   font-size: 1.2em
 }
 
-.module-thumbnail:hover h3 {
+.module-thumbnail:hover h3,
+.retailer-thumbnail:hover h3 {
   text-decoration: underline;
   text-decoration-thickness: 2px;
   text-decoration-color: black;
 }
 
-.module-thumbnail .description {
-  width: 220px;
+.module-thumbnail .description,
+.retailer-thumbnail .description {
+  width: 240px;
   margin: auto;
   color: black;
 }
