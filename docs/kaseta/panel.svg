@@ -3,7 +3,7 @@
    inkscape:export-ydpi="110.65"
    inkscape:export-xdpi="110.65"
    inkscape:export-filename="/home/phoracek/code/zlosynth/zlosynth.github.io/docs/achordion/panel.png"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
    width="382.86615"
    height="485.66928"
    viewBox="0 0 101.3 128.5"
@@ -33,17 +33,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.3511245"
-     inkscape:cx="150.61528"
-     inkscape:cy="93.255655"
+     inkscape:zoom="1.2882806"
+     inkscape:cx="19.017597"
+     inkscape:cy="539.09065"
      inkscape:document-units="mm"
      inkscape:current-layer="layer7"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1916"
-     inkscape:window-height="1033"
+     inkscape:window-height="1029"
      inkscape:window-x="0"
-     inkscape:window-y="45"
+     inkscape:window-y="49"
      inkscape:window-maximized="1"
      showguides="false"
      inkscape:guide-bbox="true"
@@ -54,7 +54,9 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
     <sodipodi:guide
        position="24.091212,157.90086"
        orientation="0,-1"
@@ -69,51 +71,66 @@
        type="xygrid"
        id="grid1986"
        originx="0.91058684"
-       originy="-38.949541" />
+       originy="-38.949541"
+       spacingy="1"
+       spacingx="1"
+       units="mm"
+       visible="false" />
     <sodipodi:guide
        position="2.4064347,142.32748"
        orientation="1,0"
-       id="guide2218" />
+       id="guide2218"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="49.966533,137.97003"
        orientation="1,0"
-       id="guide2563" />
+       id="guide2563"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="45.571622,55.557574"
        orientation="0,-1"
-       id="guide4968" />
+       id="guide4968"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="16.829204,70.364794"
        orientation="0,-1"
-       id="guide4974" />
+       id="guide4974"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="47.328413,42.54871"
        orientation="1,0"
-       id="guide5550" />
+       id="guide5550"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="5.9702927,54.878977"
        orientation="1,0"
-       id="guide5632" />
+       id="guide5632"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="68.158666,39.297168"
        orientation="1,0"
-       id="guide22034" />
+       id="guide22034"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="72.953916,39.436135"
        orientation="1,0"
-       id="guide22036" />
+       id="guide22036"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="45.114593,41.870086"
        orientation="1,0"
-       id="guide28378" />
+       id="guide28378"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="9.6337637,100.96068"
        orientation="1,0"
-       id="guide32398" />
+       id="guide32398"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="7.5544017,100.45352"
        orientation="1,0"
-       id="guide32400" />
+       id="guide32400"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -1915,7 +1932,7 @@
       </g>
     </g>
     <ellipse
-       style="display:inline;fill:none;stroke:#ffffff;stroke-width:0.427056;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       style="display:inline;fill:none;stroke:#ffffff;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="path1457-0"
        cx="95.357338"
        cy="150.84247"
@@ -1925,7 +1942,7 @@
        rx="4.4860001"
        ry="4.4864721" />
     <circle
-       style="display:inline;fill:none;stroke:#ffffff;stroke-width:0.427056;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       style="display:inline;fill:none;stroke:#ffffff;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="path1457-9-2"
        cx="85.249001"
        cy="150.84247"
@@ -1934,7 +1951,7 @@
        inkscape:export-xdpi="899.97046"
        inkscape:export-ydpi="899.97046" />
     <circle
-       style="display:inline;fill:none;stroke:#ffffff;stroke-width:0.427056;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       style="display:inline;fill:none;stroke:#ffffff;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="path1457-2-9"
        cx="92.803139"
        cy="136.01385"
