@@ -188,14 +188,9 @@ section.retailers .column {
 .module-thumbnail img,
 .retailer-thumbnail img {
   border-radius: 5px;
-  max-height: 560px;
+  max-height: 490px;
   max-width: 90%;
   border: 3px solid transparent;
-}
-
-.module-thumbnail:hover img {
-  border: 3px solid black;
-  background-color: black;
 }
 
 .module-thumbnail h3,
