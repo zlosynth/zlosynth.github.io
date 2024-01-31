@@ -3,7 +3,7 @@
 set -e
 
 modules=(achordion kaseta)
-retailers=(schneidersladen lectronz)
+retailers=(beatsville schneidersladen lectronz)
 
 echo 'Rendering the index'
 (

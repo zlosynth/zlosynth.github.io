@@ -169,7 +169,7 @@ section.retailers .row {
 
 section.modules .column,
 section.retailers .column {
-  flex: 33%;
+  flex: 50%;
 }
 
 @media screen and (max-width: 900px) {
