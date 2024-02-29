@@ -13,6 +13,12 @@ echo 'Rendering the index'
         export MODULES="${MODULES}$(envsubst < src/frontpage/module.html.tmpl)"
     done
 
+    export RETAILERS=''
+    for retailer in ${retailers[@]}; do
+        set -a; source "src/retailers/retailer-${retailer}.env"; set +a
+        export RETAILERS="${RETAILERS}$(envsubst < src/frontpage/retailer.html.tmpl)"
+    done
+
     export CONTENT="$(envsubst < src/frontpage/frontpage.html.tmpl)"
 
     set -a; source src/frontpage/header.env; set +a
@@ -22,25 +28,6 @@ echo 'Rendering the index'
 
     PAGE="$(envsubst < src/main.html.tmpl)"
     echo "${PAGE}" > docs/index.html
-)
-
-echo 'Rendering retailers'
-(
-    export RETAILERS=''
-    for retailer in ${retailers[@]}; do
-        set -a; source "src/retailers/retailer-${retailer}.env"; set +a
-        export RETAILERS="${RETAILERS}$(envsubst < src/retailers/retailer.html.tmpl)"
-    done
-
-    export CONTENT="$(envsubst < src/retailers/retailers.html.tmpl)"
-
-    set -a; source src/retailers/header.env; set +a
-    export HEADER="$(cat src/header.html.tmpl)"
-
-    export FOOTER="$(cat src/footer-short.html.tmpl)"
-
-    PAGE="$(envsubst < src/main.html.tmpl)"
-    echo "${PAGE}" > docs/retailers/index.html
 )
 
 for module in ${modules[@]}; do
