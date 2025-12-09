@@ -2,7 +2,7 @@
 
 set -e
 
-modules=(achordion kaseta)
+modules=(arplus achordion kaseta)
 retailers=(beatsville schneidersladen synthesizergr thonk)
 
 echo 'Rendering the index'

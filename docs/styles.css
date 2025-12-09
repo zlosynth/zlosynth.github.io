@@ -257,9 +257,10 @@ section.module-gallery .column img, section.module-gallery .column-wide img {
   width: 100%;
 }
 
-.module-menu {
-  margin-bottom: 20px;
-}
+/* .module-menu { */
+  /* margin-bottom: 20px; */
+/* } */
+
 
 @media screen and (max-width: 800px) {
   section.module-gallery .column, section.module-gallery .column-wide {
@@ -287,7 +288,11 @@ section.module-description {
 section.module-description .content {
   max-width: 900px;
   margin: auto;
-  padding: 20px;
+  padding: 0 20px 20px 20px;
+}
+
+section.module-description h3 {
+  margin-top: 30px;
 }
 
 section.module-description .content p {
@@ -297,6 +302,33 @@ section.module-description .content p {
 section.module-description img {
   width: 100%;
   border-radius: 10px;
+}
+
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.video iframe, .video object, .video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#pdf-container {
+  width: 100%;
+  overflow: auto;
+  border: 2px solid #222222;
+}
+
+#pdf-container canvas {
+  display: block;
+  margin: 0 auto;
 }
 
 /* Sticky footer */
@@ -328,22 +360,6 @@ footer .social a {
 
 footer .social a:hover {
   text-decoration: underline;
-}
-
-.video {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  background-color: black;
-}
-
-.video iframe, .video object, .video embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 
 footer a {
