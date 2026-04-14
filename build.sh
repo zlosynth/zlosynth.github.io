@@ -2,8 +2,8 @@
 
 set -e
 
-modules=(achordion kaseta)
-retailers=(beatsville schneidersladen synthesizergr thonk)
+modules=(arplus achordion kaseta)
+retailers=(bastl beatsville perfectcircuit schneidersladen signalsounds synthesizergr thonk)
 
 echo 'Rendering the index'
 (

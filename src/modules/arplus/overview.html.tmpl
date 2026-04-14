@@ -1,0 +1,133 @@
+  <section class="module-intro">
+    <div class="content">
+      <div class="lead">
+        <h2>Arplus</h2>
+        <p>
+          Quantizer, arpeggiator, and string synthesizer.
+        </p>
+      </div>
+
+      <div>
+        <h3>overview</h3>
+        <p>
+          Arplus combines a quantizer, arpeggiator, and string synthesizer into
+          one module. Select from a variety of scales, including Western
+          diatonic scales, microtonal Arabic maqam, Indian melakarta, Japanese
+          pentatonics, or quarter, semi, and whole tone scales. Use the
+          arpeggiator to create note patterns based on a selected chord and
+          scale. Control other modules using 1V/oct output, or take advantage
+          of the built-in 6 channels of string synthesis to produce anything
+          from subtle plucks and staccatos to ensemble-like pads and resonating
+          soundscapes.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="module-gallery">
+    <div class="content">
+      <div class="row">
+        <div class="column">
+          <a target="_blank" href="pictures/panel_white.jpg">
+            <img src="pictures/panel_white_thumbnail.jpg">
+          </a>
+        </div>
+        <div class="column">
+          <a target="_blank" href="pictures/panel_black.jpg">
+            <img src="pictures/panel_black_thumbnail.jpg">
+          </a>
+        </div>
+        <div class="column-wide">
+          <a target="_blank" href="pictures/clouds.jpg">
+            <img src="pictures/clouds_thumbnail.jpg">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="module-description">
+    <div class="content">
+      <div>
+        <h3>features</h3>
+        <ul>
+          <li>Anodized aluminium panel</li>
+          <li>20 HP, skiff friendly</li>
+          <li>Karplus-Strong string synthesis with 6-voice polyphony</li>
+          <li>External audio input for custom excitation sources</li>
+          <li>31 different scales and chords of up to 8 notes</li>
+          <li>Configurable scales</li>
+          <li>CV-controllable arpeggiator patterns</li>
+          <li>Quantized 1V/oct output</li>
+          <li>Three different stereo output modes</li>
+        </ul>
+      </div>
+
+      <div class="text-center module-menu">
+        <a href="/safety-information.pdf" class="button">Safety Information</a>
+        <a href="/arplus-user-manual.pdf" class="button">User Manual</a>
+        <a href="/arplus-build-manual.pdf" class="button">Build Manual</a>
+        <a href="/#retailers" class="button">Buy One</a>
+        <!--<a href="https://www.modwiggler.com/forum/viewtopic.php?p=3771803" class="button">Forum</a>-->
+        <a href="https://github.com/zlosynth/arplus/releases" class="button">Firmware Updates</a>
+      </div>
+
+      <!--<div>
+        <h3>overview + demo</h3>
+        <div class="video">
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/jz61Etya7vc"
+            title="Arplus features overview video"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>-->
+
+      <div>
+        <h3>user manual</h3>
+        <a href="/arplus-user-manual.pdf" target="_blank">
+          <div id="pdf-container"></div>
+        </a>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+        <script>
+            const url = '../arplus-user-manual.pdf';
+
+            pdfjsLib.getDocument(url).promise.then(pdf => {
+                const container = document.getElementById('pdf-container');
+                const numPages = pdf.numPages;
+
+                // Get first page to determine aspect ratio
+                pdf.getPage(1).then(firstPage => {
+                    const viewport = firstPage.getViewport({ scale: 1.5 });
+                    const aspectRatio = viewport.height / viewport.width;
+
+                    // Set container height based on width and aspect ratio
+                    // Account for scrollbar by subtracting a small buffer (typically 15-17px in Chrome)
+                    const scrollbarBuffer = 20;
+                    container.style.height = ((container.offsetWidth - scrollbarBuffer) * aspectRatio) + 'px';
+
+                    // Render all pages
+                    for (let pageNum = 1; pageNum <= numPages; pageNum++) {
+                        pdf.getPage(pageNum).then(page => {
+                            const canvas = document.createElement('canvas');
+                            const context = canvas.getContext('2d');
+                            const viewport = page.getViewport({ scale: 1.5 });
+
+                            canvas.width = viewport.width;
+                            canvas.height = viewport.height;
+
+                            container.appendChild(canvas);
+
+                            page.render({ canvasContext: context, viewport: viewport });
+                        });
+                    }
+                });
+            });
+        </script>
+
+      </div>
+    </div>
+  </section>
