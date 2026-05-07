@@ -30,6 +30,27 @@ echo 'Rendering the index'
     echo "${PAGE}" > docs/index.html
 )
 
+echo 'Rendering the manuals page'
+(
+    export MODULES=''
+    for module in ${modules[@]}; do
+        set -a; source "src/modules/${module}/frontpage-module.env"; set +a
+        export SLUG="${module}"
+        export MODULES="${MODULES}$(envsubst < src/manuals/module.html.tmpl)"
+    done
+
+    export CONTENT="$(envsubst < src/manuals/manuals.html.tmpl)"
+
+    set -a; source src/manuals/header.env; set +a
+    export HEADER="$(cat src/header.html.tmpl)"
+
+    export FOOTER="$(cat src/footer-short.html.tmpl)"
+
+    PAGE="$(envsubst < src/main.html.tmpl)"
+    mkdir -p docs/manuals
+    echo "${PAGE}" > docs/manuals/index.html
+)
+
 for module in ${modules[@]}; do
     echo "Rendering ${module} overview"
     (

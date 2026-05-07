@@ -331,6 +331,29 @@ section.module-description img {
   margin: 0 auto;
 }
 
+.manuals h3 {
+  text-align: left;
+  padding-bottom: 10px;
+  color: black;
+}
+
+.manuals .manuals-module {
+  margin-bottom: 30px;
+}
+
+.manuals a {
+  color: black;
+  text-decoration: underline;
+}
+
+.manuals a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.manuals p {
+  line-height: 1.8;
+}
+
 /* Sticky footer */
 #page {
   display: flex;
