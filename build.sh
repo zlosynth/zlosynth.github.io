@@ -15,7 +15,19 @@ echo 'Rendering the index'
 
     export RETAILERS=''
     for retailer in ${retailers[@]}; do
+        unset NAMES PAGES
         set -a; source "src/retailers/retailer-${retailer}.env"; set +a
+
+        # A retailer lists one or more titles (NAMES) with matching links
+        # (PAGES), each rendered as its own heading under the shared logo.
+        export TITLES=''
+        for i in "${!NAMES[@]}"; do
+            export NAME="${NAMES[i]}"
+            export PAGE="${PAGES[i]}"
+            export TITLES="${TITLES}$(envsubst < src/frontpage/retailer-title.html.tmpl)"
+        done
+        export PAGE="${PAGES[0]}"
+
         export RETAILERS="${RETAILERS}$(envsubst < src/frontpage/retailer.html.tmpl)"
     done
 

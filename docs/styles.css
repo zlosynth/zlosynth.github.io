@@ -209,8 +209,16 @@ section.retailers .column {
   font-size: 1.2em
 }
 
-.module-thumbnail:hover h3,
-.retailer-thumbnail:hover h3 {
+.retailer-title {
+  display: block;
+}
+
+.retailer-title + .retailer-title h3 {
+  margin-top: 0;
+}
+
+.module-thumbnail h3:hover,
+.retailer-title h3:hover {
   text-decoration: underline;
   text-decoration-thickness: 2px;
   text-decoration-color: black;
